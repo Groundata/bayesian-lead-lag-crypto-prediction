@@ -122,6 +122,17 @@ The notebook contains preprocessing steps to align and construct the modeling da
 - Compute first differences
 - Standardize variables for numerical stability
 
+## Reproducibility Note
+
+The specific Kalshi contract used in this analysis has since expired, and therefore historical data cannot be retrieved directly through the live API.
+
+However:
+- The aligned dataset used for modeling is included in this repository.
+- The modeling framework is fully general and can be applied to any active prediction market.
+- The data pipeline (API extraction, alignment, preprocessing) can be adapted to new contracts with minimal modification.
+
+This reflects a common reality in financial research: instruments expire, but modeling frameworks persist.
+
 ---
 
 ## Results
